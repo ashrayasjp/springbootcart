@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className="container">
-      <center> Game Delivery Store</center>
+      <center> Online Games Store</center>
       <div className="products">
         {games.map(game => (
           <div key={game.id} className="product">
